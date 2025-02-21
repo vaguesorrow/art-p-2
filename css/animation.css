@@ -80,3 +80,68 @@
     0%, 100%{ transform: scale(1, 1);}
     50%{transform: scale(1,0.3);}
 }
+
+@keyframes scale-3-f3-o{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(2,1);}
+}
+
+@keyframes scale-3-f3-j{
+    0%, 100%{ transform: scale(2, 1.15);}
+    50%{transform: scale(0.2,1.15);}
+}
+
+@keyframes scale-3-f3-1{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(1.8,1);}
+}
+
+@keyframes scale-3-f3-i{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(1,2);}
+}
+
+@keyframes scale-3-f3-d{
+    0%, 100%{ transform: scale(1,1.8);}
+    50%{transform: scale(2,1.8);}
+}
+
+@keyframes scale-3-f3-a{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(0.2,0.5);}
+}
+
+@keyframes scale-3-f3-ii{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(3,0.5);}
+}
+
+@keyframes scale-3-f3-2{
+    0%, 100%{ transform: scale(1.5, 1);}
+    50%{transform: scale(0.5,1);}
+}
+
+@keyframes scale-3-f3-t{
+    0%, 100%{ transform: scale(1, 1);}
+    50%{transform: scale(1,2);}
+}
+
+@keyframes scale-3-f3-e{
+    0%, 100%{ transform: scale(1, 1.7);}
+    50%{transform: scale(1,0.3);}
+}
+
+@keyframes scale-3-f4-1{
+    0%, 100%{ transform: scale(1); background-color: #9900FF;}
+    50%{transform: scale(2); background-color: #FF00FF;}
+}
+
+@keyframes scale-3-f4-2{
+    0%, 100%{ transform: scale(2); background-color: #FF00FF;}
+    50%{transform: scale(0.5); background-color: #9900FF;}
+}
+
+@keyframes rotate-3-f4{
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}

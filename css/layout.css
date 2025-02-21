@@ -1,7 +1,3 @@
-html,
-body {
-  min-height: 100%;
-}
 
 .main{
     width: 100vw;
@@ -598,12 +594,16 @@ body {
     width: calc(100%/7);
     height: 100%;
     position: relative;
+    animation: scale-3-f3-o 0.7s linear infinite;
+    transform-origin: left;
 }
 
 .letbox-3-f3-j{
     width: calc(200%/7);
     height: 100%;
     position: relative;
+    animation: scale-3-f3-j 0.7s linear infinite;
+    transform-origin: top;
 }
 
 .letbox-3-f3-1{
@@ -613,45 +613,61 @@ body {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    animation: scale-3-f3-1 0.7s linear infinite;
+    transform-origin: right;
 }
 
 .letbox-3-f3-i{
     width: 100%;
     height: 50%;
     position: relative;
+    animation: scale-3-f3-i 0.7s linear infinite;
+    transform-origin: top;
 }
 
 .letbox-3-f3-d{
     width: 50%;
     height: 50%;
     position: relative;
+    animation: scale-3-f3-d 0.7s linear infinite;
+    transform-origin: top left;
 }
 
 .letbox-3-f3-a{
     width: 50%;
     height: 50%;
     position: relative;
+    animation: scale-3-f3-a 0.7s linear infinite;
+    transform-origin: bottom right;
 }
 
 .letbox-3-f3-ii{
     width: calc(100%/7);
     height: 100%;
     position: relative;
+    animation: scale-3-f3-ii 0.7s linear infinite;
 }
 .letbox-3-f3-2{
     width: calc(200%/7);
     height: 100%;
+    animation: scale-3-f3-2 0.7s linear infinite;
+    transform-origin: right;
 }
+
 .letbox-3-f3-t{
     width: 100%;
     height: 50%;
     position: relative;
+    animation: scale-3-f3-t 0.7s linear infinite;
+    transform-origin: top;
 }
 
 .letbox-3-f3-e{
     width: 100%;
     height: 50%;
     position: relative;
+    animation: scale-3-f3-e 0.7s linear infinite;
+    transform-origin: bottom;
 
 }
 
@@ -666,5 +682,140 @@ body {
     display: flex;
     align-items: start;
     justify-content: start;
-    flex-wrap: wrap;
+}
+
+.box-3-f4{
+    width: 20%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.circle-3-f4-1{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color:#FF00FF;
+    position: relative;
+}
+
+.circle-3-f4-2{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color:#9900FF;
+    position: relative;
+    animation: scale-3-f4-1 0.5s linear infinite;
+}
+
+.circle-3-f4-3{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color:black;
+    position: relative;
+}
+
+.circle-3-f4-4{
+    width: 3vw;
+    height: 3vw;
+    border-radius: 50%;
+    background-color:#9900FF;
+    position: relative;
+    animation: scale-3-f4-2 0.5s linear infinite;
+}
+
+.circle-3-f4-5{
+    width: 2vw;
+    height: 2vw;
+    border-radius: 50%;
+    background-color:#FF00FF;
+    position: relative;
+}
+
+.pink-str-3-f4-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.pink-str-3-f4-1 img{
+    height: 90%;
+    margin-left: 10%;
+}
+
+.purple-str-3-f4-1{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.purple-str-3-f4-1 img{
+    height: 60%;
+    margin-left: 50%;
+    
+}
+
+.black-str-3-f4-3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.black-str-3-f4-3 img{
+    height: 90%;
+    margin-left: 50%;
+}
+
+.purple-str-3-f4-3{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.purple-str-3-f4-3 img{
+    height: 60%;
+    margin-left: 20%;
+}
+
+.pink-str-3-f4-5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.pink-str-3-f4-5 img{
+    height: 90%;
+    margin-left: 10%;
+}
+
+.purple-str-3-f4-5{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    animation: rotate-3-f4 0.5s linear infinite;
+}
+
+.purple-str-3-f4-5 img{
+    height: 60%;
+    margin-left: 50%;
 }
