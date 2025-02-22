@@ -145,3 +145,104 @@
     0% {transform: rotate(0deg);}
     100% {transform: rotate(360deg);}
 }
+
+@keyframes scale-4-f1-1{
+    0%{ color: white; text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF; transform: scale(0.5,5.5); }
+    50%{ color: #9900FF; text-shadow: 
+        -1px -1px 0 white,  
+        1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+        1px  1px 0 #ffffff; transform: scale(0.5,2.5);}
+    100%{ color: #ffffff; text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF; transform: scale(0.5,5.5);}
+}
+
+@keyframes scale-4-f1-2{
+    0%{ color: #9900FF; text-shadow: 
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+        1px  1px 0 #ffffff; transform: scale(0.5,2); }
+    50%{ color: #ffffff; text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF; transform: scale(1.2,2);}
+    100%{ color: #9900FF; text-shadow: 
+        -1px -1px 0 #ffffff,  
+        1px -1px 0 #ffffff,
+        -1px  1px 0 #ffffff,
+        1px  1px 0 #ffffff; transform: scale(0.5,2);}
+}
+
+@keyframes move-4-f2-p1{
+    0%, 100%{
+        transform: translate(-50%,-50%) scale(1,2.5);
+    }
+
+    50%{
+        transform: translate(50%,50%) scale(1,2.5);
+    }
+}
+
+@keyframes change-4-f2-p2{
+    0%,100%{
+        color: #FF00FF;
+    }
+
+    50%{
+        color: #9900FF;
+    }
+}
+
+@keyframes change-4-f2-p3{
+    0%,100%{
+        color: #9900FF;
+    }
+
+    50%{
+        color: #FF00FF;
+    }
+}
+
+@keyframes runline-4-f2-p4{
+    0% { transform: translateX(-26%);}
+    100% { transform: translateX(0%);}
+}
+
+@keyframes scale-4-f3-r{
+    0%, 100%{ transform: scale(1.5, 1);}
+    50%{transform: scale(0.5,1);}
+}
+
+@keyframes scale-4-f3-e{
+    0%, 100%{ transform: scale(0.5, 1.5);}
+    50%{transform: scale(1.5,1);}
+}
+
+@keyframes scale-4-f3-n{
+    0%, 100%{ transform: scale(1, 0.7);}
+    50%{transform: scale(0.5,0.6);}
+}
+
+@keyframes scale-4-f3-o{
+    0%, 100%{ transform: scale(0.5, 1);}
+    50%{transform: scale(2.2,1);}
+}
+
+@keyframes scale-4-f3-v{
+    0%, 100%{ transform: scale(1.5, 1);}
+    50%{transform: scale(0.5,0.5);}
+}
+
+@keyframes scale-4-f3-a{
+    0%, 100%{ transform: scale(1.5, 1);}
+    50%{transform: scale(1.5,0.3);}
+}

@@ -1,3 +1,8 @@
+html, body{
+    min-width: 100%;
+    max-width: 100%;
+}
+
 
 .main{
     width: 100vw;
@@ -338,13 +343,13 @@
     height: 50vw;
     width: 100vw;
     overflow: hidden;
+    overflow-x: hidden;
     position: relative;
     display: flex;
     align-items: start;
     justify-content: center;
     flex-direction: row;
     font-size: 3.5vw;
-    flex-wrap: wrap;
 }
 
 .frame-3-1{
@@ -678,7 +683,7 @@
     overflow: hidden;
     position: absolute;
     bottom: 0;
-    right: 0;
+    left: calc(700vw/12);
     display: flex;
     align-items: start;
     justify-content: start;
@@ -818,4 +823,239 @@
 .purple-str-3-f4-5 img{
     height: 60%;
     margin-left: 50%;
+}
+
+.screen-4{
+    height: calc(100vw/3);
+    width: 100vw;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.frame-4-1{
+    height: 100%;
+    width: calc(100%/3);
+    position: relative;
+    overflow: hidden;
+    background-color: #FF00FF;
+}
+
+.button-4-f1{
+    width: calc(100vw/6);
+    height: calc(75vw/12);
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+
+.button-4-f1 img{
+    width: 85%;
+    position: absolute;
+    left: 1.35vw;
+    top: 0.5vw;
+}
+
+.text-3-4-f1-1{
+    font-size: 5vw;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    animation: scale-4-f1-1 0.8s linear infinite;
+    transform-origin: bottom left;
+}
+
+.text-3-4-f1-2{
+    font-size: 5vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    animation: scale-4-f1-2 0.8s linear infinite;
+    transform-origin: bottom right;
+}
+
+.device-4-f1{
+    position: absolute;
+    width: 100%;
+    top: 25%;
+}
+
+.frame-4-2{
+    height: 100%;
+    width: calc(100%/3);
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.part-4-f2-1{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-4-f2-p1{
+    font-size: 3vw;
+    transform: scale(1, 3);
+    color: #FF00FF;
+    text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF;
+    animation: move-4-f2-p1 0.9s linear infinite;
+    transform-origin: top left;
+}
+
+.text-4-f2-p1:hover{
+    animation-play-state: paused;
+}
+
+.part-4-f2-2{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.text-4-f2-p2{
+    font-size: 3vw;
+    transform: scale(1.55, 4);
+    transform-origin: top left;
+    position: absolute;
+    bottom: 9vw;
+    font-weight: 650;
+    animation: change-4-f2-p2 0.5s infinite
+}
+
+.part-4-f2-3{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.textbox-4-f2-p3{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    overflow: hidden;
+}
+
+.text-4-f2-p3{
+    font-size: 1.43vw;
+    animation: change-4-f2-p3 0.3s infinite;
+}
+
+.text-4-f2-p3-1{
+    font-size: 8vw;
+    transform: scale(0.6,1.3);
+    color: #FF00FF;
+    font-weight: 650;
+    text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF;
+}
+
+.part-4-f2-4{
+    width: 100%;
+    height: 25%;
+    position: relative;
+    overflow: hidden;
+}
+
+.runline-4-f2-p4{
+    animation: runline-4-f2-p4 0.5s linear infinite;
+    display: flex;
+}
+
+.part-4-f2-4 p{
+    font-size: 8vw;
+    color: #FF00FF;
+    text-shadow: 
+        -1px -1px 0 #9900FF,  
+        1px -1px 0 #9900FF,
+        -1px  1px 0 #9900FF,
+        1px  1px 0 #9900FF;
+}
+
+.down-4-f2-p4{
+    transform: rotate(180deg);
+}
+
+.frame-4-3{
+    height: 100%;
+    width: calc(100%/3);
+    position: relative;
+    overflow: hidden;
+    background-color: #9900FF;
+}
+
+.let-4-f3-r{
+    width: 50%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    animation: scale-4-f3-r 0.7s linear infinite;
+    transform-origin: left;
+}
+
+.let-4-f3-e{
+    width: 50%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    animation: scale-4-f3-e 0.7s linear infinite;
+    transform-origin: right top;
+}
+
+.let-4-f3-n{
+    width: 25%;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    animation: scale-4-f3-n 0.7s linear infinite;
+    transform-origin: right bottom;
+}
+
+.let-4-f3-o{
+    width: 25%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    animation: scale-4-f3-o 0.7s linear infinite;
+    transform-origin: bottom;
+}
+
+.let-4-f3-v{
+    width: 12.5%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    animation: scale-4-f3-v 0.7s linear infinite;
+    transform-origin: bottom;
+}
+
+.let-4-f3-a{
+    width: 12.5%;
+    position: absolute;
+    right: 25%;
+    top: 50%;
+    animation: scale-4-f3-a 0.7s linear infinite;
+    transform-origin: bottom;
 }
