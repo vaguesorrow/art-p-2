@@ -15,7 +15,7 @@
     
     .text-3-f1-1{
         right: 55vw;
-        bottom: 50vw;
+        bottom: 45vw;
     }
     
     @keyframes change-3-f1-1{
@@ -26,6 +26,7 @@
     .circle-3-f1-black-1{
         width: 5vw;
         height: 5vw;
+        top: 31vw;
     }
     
     .circle-3-f1-black-2{
@@ -60,7 +61,8 @@
     .circle-3-f1-purple-3{
         width: 7vw;
         height: 7vw;
-        top: 35vw;
+        top: 38vw;
+        left: 21vw;
     }
     
     .circle-3-f1-purple-4{
@@ -73,8 +75,8 @@
     .circle-3-f1-white-1{
         width: 9vw;
         height: 9vw;
-        top: 19.5vw;
-        left: 25vw;
+        top: 25vw;
+        left: 30vw;
     }
     
     .circle-3-f1-white-2{
@@ -102,13 +104,13 @@
     
     .text-3-f2-1{
         right: 31vw;
-        bottom: 43.5vw;
+        bottom: 42.5vw;
         transform: scale(2,4);
     }
     
     .text-3-f2-2{
         left: 27.5vw;
-        top: 16vw;
+        top: 17vw;
     }
     
     
@@ -222,7 +224,8 @@
     
     .text-4-f2-p2{
         font-size: 4.5vw;
-        margin-bottom: 2.5vw;
+        margin-bottom: 1.5vw;
+        transform: scale(1.6,3.6);
     }
     
     .text-4-f2-p3{
@@ -272,4 +275,6 @@
             -1px  1px 0 #ffffff,
             1px  1px 0 #ffffff; transform: scale(0.5,3);}
     }
+    
+    
 }
