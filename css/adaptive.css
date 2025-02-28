@@ -225,7 +225,7 @@
     .text-4-f2-p2{
         font-size: 4.5vw;
         margin-bottom: 1.5vw;
-        transform: scale(1.6,3.6);
+        transform: scale(1.8,3.6);
     }
     
     .text-4-f2-p3{
@@ -276,5 +276,8 @@
             1px  1px 0 #ffffff; transform: scale(0.5,3);}
     }
     
-    
+    @keyframes runline-4-f2-p4{
+        0% { transform: translateX(-24%);}
+        100% { transform: translateX(0%);}
+    }
 }
