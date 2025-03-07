@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>re.nova</title>
     <script src="./js/main.js" charset="UTF-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -176,13 +178,13 @@
             </div>
             <div class="frame-5-2">
                 <div class="button-5-f1"><p>???</p></div>
-                <img src="./img/comp-5-f2.svg" alt="компьютер" class="comp-5-f2">
-                <img src="./img/group-5-f2-1.svg" alt="связь" class="group-5-f2-1">
-                <img src="./img/group-5-f2-2.svg" alt="связь" class="group-5-f2-2">
-                <img src="./img/group-5-f2-3.svg" alt="связь" class="group-5-f2-3">
-                <img src="./img/group-5-f2-4.svg" alt="связь" class="group-5-f2-4">
-                
+                <img src="./img/comp-5-f2.svg" alt="компьютер" class="comp-5-f2" >
             </div>
+            <img src="./img/group-5-f2-1.svg" alt="связь" class="group-5-f2-1 drag">
+            <img src="./img/group-5-f2-2.svg" alt="связь" class="group-5-f2-2 drag">
+            <img src="./img/group-5-f2-3.svg" alt="связь" class="group-5-f2-3 drag">
+            <img src="./img/group-5-f2-4.svg" alt="связь" class="group-5-f2-4 drag">
+                
         </div>
 
         <div class="screen-6">
@@ -190,6 +192,19 @@
             <p class="text-6-2">мочалова</p>
             <p class="text-6-3">б24дз09</p>
         </div>
+    </section>
+
+    <section class="draw">
+        <canvas class="canva" width="1920" height="1080"></canvas>
+        <div class="button-draw-1"><p class="text-b-d-1">???</p></div>
+        <div class="button-draw-2"><img src="./img/buttom-draw-2.svg" alt=""></div>
+    </section>
+    
+    <section class="device">
+        <div class="button-device"><img src="./img/buttom-draw-2.svg" alt=""></div>
+        <canvas class="device-3d">
+            
+        </canvas>
     </section>
 </body>
 </html>

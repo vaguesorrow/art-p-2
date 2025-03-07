@@ -1121,31 +1121,35 @@ html, body{
 }
 
 .group-5-f2-1{
-    width: 75%;
+    width: 37.5%;
     position: absolute;
-    left: 2vw;
+    left: 52vw;
     top: 2vw;
+    cursor:grab;
 }
 
 .group-5-f2-2{
-    width: 60%;
+    width: 30%;
     position: absolute;
-    left: 18vw;
+    left: 68vw;
     top: 5vw;
+    cursor:grab;
 }
 
 .group-5-f2-3{
-    width: 45%;
+    width: 22.5%;
     position: absolute;
-    left: 5vw;
+    left: 55vw;
     top: 2vw;
+    cursor:grab;
 }
 
 .group-5-f2-4{
-    width: 65%;
+    width: 32.5%;
     position: absolute;
-    left: 15vw;
+    left: 65vw;
     top: 7vw;
+    cursor:grab;
 }
 
 .button-5-f1{
@@ -1196,4 +1200,79 @@ html, body{
     margin-left: 30vw;
     font-size: 3vw;
     transform-origin: right;
+}
+
+.draw{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background-color: #ffffff;
+    display: none;
+    margin: 0 auto;
+}
+
+.button-draw-1{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background: #FF00FF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    left: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.text-b-d-1{
+    font-size: 3vw;
+    animation: change-b-d-1 0.5s infinite;
+}
+
+.button-draw-2{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.button-draw-2 img{
+    width: 100%;
+}
+
+.device{
+    width: 100vw;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow: hidden;
+    background: linear-gradient(to bottom, #9900FF, #FF00FF);
+    display: none;
+    margin: 0 auto;
+}
+
+.button-device{
+    position: absolute;
+    height: 7vw;
+    width: 7vw;
+    overflow: hidden;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.button-device img{
+    width: 100%;
+}
+
+.device-3d{
+    width: 100%;
+    height: calc(100%-7vw);
+    position: absolute;
+    top: 7vw;
 }
