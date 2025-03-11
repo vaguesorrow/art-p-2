@@ -85,48 +85,82 @@ document.addEventListener("DOMContentLoaded", function () {
     let canvas = document.querySelector(".canva");
     const ctx = canvas.getContext('2d');
 
-    let drawing = false; // Флаг для отслеживания состояния рисования
-    let lastX, lastY; // Последние координаты
+    let drawing = false; 
+    let lastX, lastY; 
 
-    ctx.strokeStyle = '#9900FF'; // Цвет линии
-    ctx.lineWidth = 3; // Толщина линии
+    ctx.strokeStyle = '#9900FF'; 
+    ctx.lineWidth = 3; 
     ctx.lineCap = 'round';
     ctx.globalCompositeOperation = 'source-over';
 
     canvas.addEventListener('mousedown', (e) => {
         drawing = true;
 
-        // Получаем координаты мыши относительно канваса
         lastX = e.clientX - canvas.getBoundingClientRect().left;
         lastY = e.clientY - canvas.getBoundingClientRect().top;
 
-        ctx.beginPath(); // Начинаем новый путь
-        ctx.moveTo(lastX, lastY); // Перемещаемся в начальную точку
+        ctx.beginPath(); 
+        ctx.moveTo(lastX, lastY); 
 
         document.addEventListener('mousemove', mouseMoveHandler);
         document.addEventListener('mouseup', mouseUpHandler);
     });
 
-    // Обработчик перемещения мыши
     function mouseMoveHandler(e) {
-        if (!drawing) return; // Если не рисуем, выходим
+        if (!drawing) return; 
 
-        // Получаем текущие координаты мыши относительно канваса
         const x = e.clientX - canvas.getBoundingClientRect().left;
         const y = e.clientY - canvas.getBoundingClientRect().top;
 
-        ctx.lineTo(x, y); // Рисуем линию до текущей позиции
-        ctx.stroke(); // Отображаем линию
+        ctx.lineTo(x, y); 
+        ctx.stroke(); 
 
-        lastX = x; // Обновляем последние координаты
+        lastX = x; 
         lastY = y;
     }
 
-    // Окончание рисования
     function mouseUpHandler() {
-        drawing = false; // Останавливаем рисование
-        ctx.closePath(); // Закрываем путь
+        drawing = false; 
+        ctx.closePath();
         document.removeEventListener('mousemove', mouseMoveHandler);
         document.removeEventListener('mouseup', mouseUpHandler);
     }
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-1');
+    const btn = document.querySelector('.button-2-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-1');
+    const btn = document.querySelector('.button-skill-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-2');
+    const btn = document.querySelector('.button-2-2');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-2');
+    const btn = document.querySelector('.button-skill-2');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
 });
