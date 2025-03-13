@@ -1370,3 +1370,478 @@ html, body{
     left: 3vw;
     transform: scale(1,10);
 }
+
+.skill-3{
+    width: 25vw;
+    height: 25vw;
+    background-color: #FF00FF;
+    position: absolute;
+    top: 39vw;
+    left: 52vw;
+    overflow: hidden;
+    display: none;
+}
+
+.button-skill-3{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.ellips-1{
+    width: 100%;
+    height: 40%;
+    background-color: #9900FF;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+}
+
+.text-skill-3{
+    color:#9900FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    transform: scale(1,8);
+    position: absolute;
+    top: 2.5vw;
+}
+
+.text-ellips-3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF00FF;
+    font-size: 1.6vw;
+    position: absolute;
+    top: 3.9vw;
+    left: 2.6vw;
+    transform: scale(1,6);
+}
+
+.skill-4{
+    width: 25vw;
+    height: 25vw;
+    background-color: #9900FF;
+    position: absolute;
+    top: 43vw;
+    left: 75vw;
+    overflow:hidden ;
+    display: none;
+}
+
+.button-skill-4{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-4{
+    color:#FF00FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2vw;
+    transform: scale(1,13);
+    position: absolute;
+    top: 4.6vw;
+}
+
+.text-ellips-4{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9900FF;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 3.8vw;
+    left: 7.5vw;
+    transform: scale(2,10);
+}
+
+.skill-5{
+    width: 25vw;
+    height: 25vw;
+    background-color: #FF00FF;
+    position: absolute;
+    top: 39vw;
+    left: 62vw;
+    overflow: hidden;
+    display: none;
+}
+
+.button-skill-5{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-5{
+    color:#9900FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5vw;
+    transform: scale(1,12);
+    position: absolute;
+    top: 2.9vw;
+}
+
+.text-ellips-5{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF00FF;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 3.8vw;
+    left: 2.6vw;
+    transform: scale(1,8);
+}
+
+.skill-6{
+    width: 25vw;
+    height: 25vw;
+    background-color: #9900FF;
+    position: absolute;
+    top: 30vw;
+    left: 23vw;
+    overflow:hidden ;
+    display: none;
+}
+
+.button-skill-6{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-6{
+    color:#FF00FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    transform: scale(1,13);
+    position: absolute;
+    top: 3.5vw;
+}
+
+.text-ellips-6{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9900FF;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 4.5vw;
+    left: 7.5vw;
+    transform: scale(2,8);
+}
+
+.skill-7{
+    width: 25vw;
+    height: 25vw;
+    background-color: #FF00FF;
+    position: absolute;
+    top: 27vw;
+    left: 47vw;
+    overflow: hidden;
+    display: none;
+}
+
+.button-skill-7{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-7{
+    color:#9900FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    transform: scale(1,12);
+    position: absolute;
+    top: 4.5vw;
+}
+
+.text-ellips-7{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF00FF;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 4.5vw;
+    left: 4vw;
+    transform: scale(1,8);
+}
+
+.skill-8{
+    width: 25vw;
+    height: 25vw;
+    background-color: #9900FF;
+    position: absolute;
+    top: 30vw;
+    left: 62vw;
+    overflow:hidden ;
+    display: none;
+}
+
+.button-skill-8{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-8{
+    color:#FF00FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    transform: scale(1,13);
+    position: absolute;
+    top: 6.2vw;
+}
+
+.text-ellips-8{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9900FF;
+    font-size: 1vw;
+    position: absolute;
+    top: 4vw;
+    left: 7.1vw;
+    transform: scale(2,8);
+}
+
+.skill-9{
+    width: 25vw;
+    height: 25vw;
+    background-color: #FF00FF;
+    position: absolute;
+    top: 29vw;
+    left: 50vw;
+    overflow: hidden;
+    display: none;
+}
+
+.button-skill-9{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-9{
+    color:#9900FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3vw;
+    transform: scale(1,12);
+    position: absolute;
+    top: 2.9vw;
+}
+
+.text-ellips-9{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FF00FF;
+    font-size: 1.4vw;
+    position: absolute;
+    top: 3.8vw;
+    left: 4.2vw;
+    transform: scale(1,8);
+}
+
+.skill-10{
+    width: 25vw;
+    height: 25vw;
+    background-color: #9900FF;
+    position: absolute;
+    top: 30vw;
+    left: 62vw;
+    overflow:hidden ;
+    display: none;
+}
+
+.button-skill-10{
+    width: 7vw;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+}
+
+.text-skill-10{
+    color:#FF00FF;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.9vw;
+    transform: scale(1,8);
+    position: absolute;
+    top: 5vw;
+}
+
+.text-ellips-10{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #9900FF;
+    font-size: 1.2vw;
+    position: absolute;
+    top: 4.3vw;
+    left: 4.3vw;
+    transform: scale(1,10);
+}
+
+.question-1{
+    width: 15vw;
+    height: 15vw;
+    background-color: #9900FF;
+    position: absolute;
+    top: 43vw;
+    left: 7vw;
+    overflow: hidden;
+    display: none;
+}
+
+.text-question-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    animation: change-q-1 0.5s linear infinite;
+    position: absolute;
+    top: 3vw;
+    transform-origin: left;
+}
+
+.button-question-1{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.question-2{
+    width: 15vw;
+    height: 15vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 78vw;
+    left: 7vw;
+    overflow: hidden;
+    display: none;
+}
+
+.text-question-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    animation: change-q-2 0.5s linear infinite;
+    position: absolute;
+    top: 0vw;
+    transform-origin: left top;
+}
+
+.button-question-2{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.question-3{
+    width: 15vw;
+    height: 15vw;
+    background-color: #ffffff;
+    position: absolute;
+    top: 170vw;
+    left: 78vw;
+    overflow: hidden;
+    display: none;
+}
+
+.text-question-3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    animation: change-q-3 0.5s linear infinite;
+    position: absolute;
+    top: 0vw;
+    transform-origin: left top;
+}
+
+.button-question-3{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.question-4{
+    width: 20vw;
+    height: 20vw;
+    background-color: #FF00FF;
+    position: absolute;
+    top: 7vw;
+    left: 7vw;
+    overflow: hidden;
+    display: none;
+}
+
+.text-question-4-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    animation: change-q-4 0.7s linear infinite;
+    position: absolute;
+    top: 0vw;
+    transform-origin: left top;
+    font-weight: 500;
+}
+
+.button-question-4{
+    width: 20%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    cursor: pointer;
+}
+
+.text-question-4-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color:#ffffff ;
+    transform: scale(1.4,13);
+    opacity: 50%;
+    position: absolute;
+    top: -5vw;
+    transform-origin: left top;
+}
+
+.canva-3{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.text-question-2-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: #9900FF ;
+    transform: scale(1.1,5);
+    opacity: 30%;
+    position: absolute;
+    top: -2vw;
+    transform-origin: left top;
+}
+
+.text-question-2-2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1vw;
+    color: #9900FF ;
+    opacity: 60%;
+    position: absolute;
+    bottom: 0;
+    transform-origin: left top;
+}
+
+.text-question-3-1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2vw;
+    color: #9900FF ;
+    transform: scale(1.1,10);
+    opacity: 30%;
+    position: absolute;
+    top: -5vw;
+    transform-origin: left top;
+}

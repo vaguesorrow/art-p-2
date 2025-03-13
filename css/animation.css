@@ -284,3 +284,51 @@
     0%, 100%{ transform: scale(1,2); color: #9900FF;}
     50%{transform: scale(1,2); color: #ffffff;}
 }
+
+@keyframes change-q-1 {
+    0%,100%{
+        color: #FF00FF;
+        transform: scale(0.7,1.7);
+    }
+
+    50%{
+        color: #ffffff;
+        transform: scale(0.7,1.7);
+    }
+}
+
+@keyframes change-q-2 {
+    0%,100%{
+        color: #FF00FF;
+        transform: scale(1,1.1);
+    }
+
+    50%{
+        color: #9900FF;
+        transform: scale(1,2.5);
+    }
+}
+
+@keyframes change-q-3 {
+    0%,100%{
+        color: #FF00FF;
+        transform: scale(1,1.1);
+    }
+
+    50%{
+        color: #9900FF;
+        transform: scale(1,3.2);
+    }
+}
+
+@keyframes change-q-4 {
+    0%,100%{
+        color: #9900FF;
+        transform: scale(1,3);
+    }
+
+    50%{
+        color: #ffffff;
+        transform: scale(1,9);
+    }
+}

@@ -1,3 +1,5 @@
+//экран рисование
+
 document.addEventListener('DOMContentLoaded', function () {
     const section1 = document.querySelector('.main');
     const section2 = document.querySelector('.draw');
@@ -22,6 +24,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+//экран девайс
+
 document.addEventListener('DOMContentLoaded', function () {
     const section1 = document.querySelector('.main');
     const section3 = document.querySelector('.device');
@@ -45,6 +49,8 @@ document.addEventListener('DOMContentLoaded', function () {
         section1.classList.add('fullscreen');
     });
 });
+
+//экран 5 перетаскивание
 
 document.addEventListener("DOMContentLoaded", function () {
     let draggableElements = document.querySelectorAll(".drag");
@@ -80,7 +86,9 @@ document.addEventListener("DOMContentLoaded", function () {
       });
     });
   });
-  
+
+//рисование
+
   document.addEventListener('DOMContentLoaded', () => {
     let canvas = document.querySelector(".canva");
     const ctx = canvas.getContext('2d');
@@ -127,6 +135,9 @@ document.addEventListener("DOMContentLoaded", function () {
     }
 });
 
+//второй экран
+
+//кнопка1
 document.addEventListener('DOMContentLoaded', function () {
     const section = document.querySelector('.skill-1');
     const btn = document.querySelector('.button-2-1');
@@ -146,6 +157,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+//кнопка2
 document.addEventListener('DOMContentLoaded', function () {
     const section = document.querySelector('.skill-2');
     const btn = document.querySelector('.button-2-2');
@@ -163,4 +176,309 @@ document.addEventListener('DOMContentLoaded', function () {
     btn.addEventListener('click', function () {
         section.style.display = 'none';
     });
+});
+
+
+//кнопка3
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-3');
+    const btn = document.querySelector('.button-2-3');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-3');
+    const btn = document.querySelector('.button-skill-3');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка4
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-4');
+    const btn = document.querySelector('.button-2-4');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-4');
+    const btn = document.querySelector('.button-skill-4');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка5
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-5');
+    const btn = document.querySelector('.button-2-5');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-5');
+    const btn = document.querySelector('.button-skill-5');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка6
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-6');
+    const btn = document.querySelector('.button-2-6');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-6');
+    const btn = document.querySelector('.button-skill-6');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка7
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-7');
+    const btn = document.querySelector('.button-2-7');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-7');
+    const btn = document.querySelector('.button-skill-7');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка8
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-8');
+    const btn = document.querySelector('.button-2-8');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-8');
+    const btn = document.querySelector('.button-skill-8');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка9
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-9');
+    const btn = document.querySelector('.button-2-9');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-9');
+    const btn = document.querySelector('.button-skill-9');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка10
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-10');
+    const btn = document.querySelector('.button-2-10');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.skill-10');
+    const btn = document.querySelector('.button-skill-10');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка вопрос1
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-1');
+    const btn = document.querySelector('.button-2-11');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-1');
+    const btn = document.querySelector('.button-question-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка вопрос2
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-2');
+    const btn = document.querySelector('.button-3-f1-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-2');
+    const btn = document.querySelector('.button-question-2');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка вопрос3
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-3');
+    const btn = document.querySelector('.button-5-f2');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-3');
+    const btn = document.querySelector('.button-question-3');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//кнопка вопрос4
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-4');
+    const btn = document.querySelector('.button-draw-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-4');
+    const btn = document.querySelector('.button-question-4');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});
+
+//рисование2
+
+document.addEventListener('DOMContentLoaded', () => {
+    let canvas = document.querySelector(".canva-3");
+    const ctx = canvas.getContext('2d');
+
+    let drawing = false; 
+    let lastX, lastY; 
+    let currentColor = 'red';
+
+    const colorButtons = document.querySelectorAll('.color-button');
+
+    colorButtons.forEach(div => {
+        div.addEventListener('click', () => {
+            // Получаем цвет кнопки (убедимся, что он в нужном формате)
+            const color = window.getComputedStyle(div).backgroundColor;
+            setColor(color);
+        });
+    });
+
+
+    function setColor(color) {
+        currentColor = color; 
+        ctx.strokeStyle = currentColor;
+    }
+
+    ctx.lineWidth = 3; 
+    ctx.lineCap = 'round';
+    ctx.globalCompositeOperation = 'source-over';
+
+    canvas.addEventListener('mousedown', (e) => {
+        drawing = true;
+
+        lastX = e.clientX - canvas.getBoundingClientRect().left;
+        lastY = e.clientY - canvas.getBoundingClientRect().top;
+
+        ctx.beginPath(); 
+        ctx.moveTo(lastX, lastY); 
+
+        document.addEventListener('mousemove', mouseMoveHandler);
+        document.addEventListener('mouseup', mouseUpHandler);
+    });
+
+    function mouseMoveHandler(e) {
+        if (!drawing) return; 
+
+        const x = e.clientX - canvas.getBoundingClientRect().left;
+        const y = e.clientY - canvas.getBoundingClientRect().top;
+
+        ctx.lineTo(x, y); 
+        ctx.stroke(); 
+
+        lastX = x; 
+        lastY = y;
+    }
+
+    function mouseUpHandler() {
+        drawing = false; 
+        ctx.closePath();
+        document.removeEventListener('mousemove', mouseMoveHandler);
+        document.removeEventListener('mouseup', mouseUpHandler);
+    }
 });

@@ -5,8 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>re.nova</title>
     <script src="./js/main.js" charset="UTF-8"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/loaders/GLTFLoader.js"></script>
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
@@ -59,18 +57,19 @@
         <div class="screen-3">
             <div class="frame-3-1">
                 <p class="text-3-f1-1">создайте нейронные связи</p>
-                <div class="circle-3-f1-black-1"></div>
-                <div class="circle-3-f1-black-2"></div>
-                <div class="circle-3-f1-black-3"></div>
-                <div class="circle-3-f1-black-4"></div>
-                <div class="circle-3-f1-purple-1"></div>
-                <div class="circle-3-f1-purple-2"></div>
-                <div class="circle-3-f1-purple-3"></div>
-                <div class="circle-3-f1-purple-4"></div>
-                <div class="circle-3-f1-white-1"></div>
-                <div class="circle-3-f1-white-2"></div>
-                <div class="circle-3-f1-white-3"></div>
-                <div class="circle-3-f1-white-4"></div>
+                <canvas class="canva-3" width="1120" height="640"></canvas>
+                <div class="circle-3-f1-black-1 color-button"></div>
+                <div class="circle-3-f1-black-2 color-button"></div>
+                <div class="circle-3-f1-black-3 color-button"></div>
+                <div class="circle-3-f1-black-4 color-button"></div>
+                <div class="circle-3-f1-purple-1 color-button"></div>
+                <div class="circle-3-f1-purple-2 color-button"></div>
+                <div class="circle-3-f1-purple-3 color-button"></div>
+                <div class="circle-3-f1-purple-4 color-button"></div>
+                <div class="circle-3-f1-white-1 color-button"></div>
+                <div class="circle-3-f1-white-2 color-button"></div>
+                <div class="circle-3-f1-white-3 color-button"></div>
+                <div class="circle-3-f1-white-4 color-button"></div>
                 <div class="button-3-f1-1"><p>???</p></div>
             </div>
             <div class="frame-3-2">
@@ -177,8 +176,8 @@
                 <img src="./img/back-5-f1.svg" alt="голова" class="back-5-f1">
             </div>
             <div class="frame-5-2">
-                <div class="button-5-f2"><p>???</p></div>
                 <img src="./img/comp-5-f2.svg" alt="компьютер" class="comp-5-f2" >
+                <div class="button-5-f2"><p>???</p></div>
             </div>
             <img src="./img/group-5-f2-1.svg" alt="связь" class="group-5-f2-1 drag">
             <img src="./img/group-5-f2-2.svg" alt="связь" class="group-5-f2-2 drag">
@@ -198,13 +197,16 @@
         <canvas class="canva" width="1920" height="1080"></canvas>
         <div class="button-draw-1"><p class="text-b-d-1">???</p></div>
         <div class="button-draw-2"><img src="./img/buttom-draw-2.svg" alt="закрыть"></div>
+        <section class="question-4">
+            <p class="text-question-4-2">только декстоп</p>
+            <p class="text-question-4-1">разрисуйте холст</p>
+            <img src="./img/button purple.svg" alt="закрыть" class="button-question-4">
+        </section>
     </section>
     
     <section class="device">
         <div class="button-device"><img src="./img/buttom-draw-2.svg" alt="закрыть"></div>
-        <canvas class="device-3d">
-            
-        </canvas>
+        
     </section>
 
     <section class="skill-1">
@@ -217,13 +219,63 @@
         <p class="text-skill-2">аккорды и бой</p>
         <div class="ellips-2"><p class="text-ellips-2">могу устраивать свои гитарники!!</p></div>
     </section>
-    <section class="skill-3"></section>
-    <section class="skill-4"></section>
-    <section class="skill-5"></section>
-    <section class="skill-6"></section>
-    <section class="skill-7"></section>
-    <section class="skill-8"></section>
-    <section class="skill-9"></section>
-    <section class="skill-10"></section>
+    <section class="skill-3">
+        <img src="./img/button purple.svg" alt="закрыть" class="button-skill-3">
+        <p class="text-skill-3">весь функционал</p>
+        <div class="ellips-1"><p class="text-ellips-3">задизайнила первый сайт!!</p></div>
+    </section>
+    <section class="skill-4">
+        <img src="./img/buttom-draw-2.svg" alt="закрыть" class="button-skill-4">
+        <p class="text-skill-4">ритм и несколько движений</p>
+        <div class="ellips-2"><p class="text-ellips-4">звезда тусовки!!</p></div>
+    </section>
+    <section class="skill-5">
+        <img src="./img/button purple.svg" alt="закрыть" class="button-skill-5">
+        <p class="text-skill-5">мяч попадает в ворота</p>
+        <div class="ellips-1"><p class="text-ellips-5">больше не стыдно перед друзьями!!</p></div>
+    </section>
+    <section class="skill-6">
+        <img src="./img/buttom-draw-2.svg" alt="закрыть" class="button-skill-6">
+        <p class="text-skill-6">уверенно стоишь и едешь</p>
+        <div class="ellips-2"><p class="text-ellips-6">больше не боюсь!!</p></div>
+    </section>
+    <section class="skill-7">
+        <img src="./img/button purple.svg" alt="закрыть" class="button-skill-7">
+        <p class="text-skill-7">база в выбранном разделе</p>
+        <div class="ellips-1"><p class="text-ellips-7">что такое линейная алгебра??</p></div>
+    </section>
+    <section class="skill-8">
+        <img src="./img/buttom-draw-2.svg" alt="закрыть" class="button-skill-8">
+        <p class="text-skill-8">навык убеждения+1000</p>
+        <div class="ellips-2"><p class="text-ellips-8">мам, купи плэстейшн5!!</p></div>
+    </section>
+    <section class="skill-9">
+        <img src="./img/button purple.svg" alt="закрыть" class="button-skill-9">
+        <p class="text-skill-9">аль-денте во всех техниках</p>
+        <div class="ellips-1"><p class="text-ellips-9">фантазию развивай сам!!</p></div>
+    </section>
+    <section class="skill-10">
+        <img src="./img/buttom-draw-2.svg" alt="закрыть" class="button-skill-10">
+        <p class="text-skill-10">100+ языков</p>
+        <div class="ellips-2"><p class="text-ellips-10">наконец запомнил синтаксис!!</p></div>
+    </section>
+
+    <section class="question-1">
+        <p class="text-question-1">при нажатии на круги вылезет описание навыка</p>
+        <img src="./img/buttom-draw-2.svg" alt="закрыть" class="button-question-1">
+    </section>
+
+    <section class="question-2">
+        <p class="text-question-2-1">только декстоп</p>
+        <p class="text-question-2-2">выбор цвета при клике на круги</p>
+        <p class="text-question-2">соедините точки одного цвета</p>
+        <img src="./img/button purple.svg" alt="закрыть" class="button-question-2">
+    </section>
+
+    <section class="question-3">
+        <p class="text-question-3-1">только декстоп</p>
+        <p class="text-question-3">перенесите связи в голову</p>
+        <img src="./img/button purple.svg" alt="закрыть" class="button-question-3">
+    </section>
 </body>
 </html>
