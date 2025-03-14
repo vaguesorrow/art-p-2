@@ -486,18 +486,18 @@ document.addEventListener('DOMContentLoaded', () => {
 //смена картинки
     document.addEventListener('DOMContentLoaded', function() {
         const img = document.querySelector('.device-img');
-         let currentImage = '../img/device-2.svg'
+         let currentImage = '/img/device-2.svg'
     
         img.addEventListener('click', function() {
-            if (currentImage === '../img/device-1.svg') {
-                img.src = '../img/device-2.svg'; 
-                currentImage = '../img/device-2.svg';
-            } else if (currentImage === '../img/device-2.svg') {
-                img.src = '../img/device-3.svg'; 
-                currentImage = '../img/device-3.svg';
+            if (currentImage === '/img/device-1.svg') {
+                img.src = '/img/device-2.svg'; 
+                currentImage = '/img/device-2.svg';
+            } else if (currentImage === '/img/device-2.svg') {
+                img.src = '/img/device-3.svg'; 
+                currentImage = '/img/device-3.svg';
             } else {
-                img.src = '../img/device-1.svg'; 
-                currentImage = '../img/device-1.svg';
+                img.src = '/img/device-1.svg'; 
+                currentImage = '/img/device-1.svg';
             }
         });
     });
