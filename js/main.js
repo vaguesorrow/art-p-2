@@ -482,3 +482,41 @@ document.addEventListener('DOMContentLoaded', () => {
         document.removeEventListener('mouseup', mouseUpHandler);
     }
 });
+
+//смена картинки
+    document.addEventListener('DOMContentLoaded', function() {
+        const img = document.querySelector('.device-img');
+         let currentImage = '../img/device-2.svg'
+    
+        img.addEventListener('click', function() {
+            if (currentImage === '../img/device-1.svg') {
+                img.src = '../img/device-2.svg'; 
+                currentImage = '../img/device-2.svg';
+            } else if (currentImage === '../img/device-2.svg') {
+                img.src = '../img/device-3.svg'; 
+                currentImage = '../img/device-3.svg';
+            } else {
+                img.src = '../img/device-1.svg'; 
+                currentImage = '../img/device-1.svg';
+            }
+        });
+    });
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-5');
+    const btn = document.querySelector('.button-device-1');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'block';
+        section.classList.add('fullscreen');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', function () {
+    const section = document.querySelector('.question-5');
+    const btn = document.querySelector('.button-question-5');
+
+    btn.addEventListener('click', function () {
+        section.style.display = 'none';
+    });
+});

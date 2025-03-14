@@ -332,3 +332,15 @@
         transform: scale(1,9);
     }
 }
+
+@keyframes change-q-5 {
+    0%,100%{
+        color: #9900FF;
+        transform: scale(0.9,3);
+    }
+
+    50%{
+        color: #ffffff;
+        transform: scale(0.9,10);
+    }
+}

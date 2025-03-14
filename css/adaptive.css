@@ -280,4 +280,12 @@
         0% { transform: translateX(-24%);}
         100% { transform: translateX(0%);}
     }
+
+    .question-2{
+        top: 102vw;
+    }
+    
+    .question-3{
+        top: 343vw;
+    }
 }
